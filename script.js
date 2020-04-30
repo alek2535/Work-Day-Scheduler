@@ -6,11 +6,11 @@ $(document).ready(function() {
     var currentHour = moment().format('H');
     console.log(currentHour);
 
-    let userInput = '';
 
     timeColor();
 
-    localStorage.getItem(JSON.stringify(userInput));
+    let userInputGet = localStorage.getItem('user input');
+    $('#user-input-1)').html(userInputGet);
 
 //Timeblock Colors
     function timeColor() {
@@ -25,12 +25,14 @@ $(document).ready(function() {
     }
 
     //Save Button
-    $('.saveBtn').on('click', changeText())
+    $('.saveBtn').on('click', function() {
+        let userInputSet = localStorage.setItem('user input', ($('#user-input-1').val()));
+        $('#user-input-1').html(userInputSet);
+    });
 
-    function changeText() {
-        userInput = $('#user-input-1').val();
-        $('#user-input-1').html(userInput);
-        localStorage.setItem(JSON.parse('userInput'));
-    }
+    // function changeText() {
+        
+        // 
+    // };
 
-})
+});
