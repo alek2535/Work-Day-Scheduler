@@ -10,7 +10,7 @@ $(document).ready(function() {
     timeColor();
 
     let userInputGet = localStorage.getItem('user input');
-    $('#user-input-1)').html(userInputGet);
+    $('#user-input-1').html(userInputGet);
 
 //Timeblock Colors
     function timeColor() {
