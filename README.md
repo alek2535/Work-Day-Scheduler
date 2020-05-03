@@ -1,11 +1,9 @@
 # Work-Day-Scheduler
 Week-5 HW
 
-# 05 Third-Party APIs: Work Day Scheduler
+## Description
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
 
 ## User Story
 
@@ -33,6 +31,31 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
+## Visuals
+
 The following animation demonstrates the application functionality:
 
 ![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+
+## Installation
+
+To access this project:
+
+```
+1. Go to https://github.com/alek2535/Work-Day-Scheduler
+
+2. Click on Clone or download
+
+3. Paste copied link after `git clone` into your bash console in your desired directory
+
+4. You should now have access to the repository
+```
+
+## Contributing
+
+Thank you to Carmen Obied(@carmenobied), CJ Pia(@cjpia612), and Zack Corpus(@zcorpuz) who helped get me through this. Bouncing ideas off of each other and providing useful resources helped make this project successful.
+
+## Project Status
+
+This project work correctly, but needs some code refractoring to keep from being to DRY. There is a code snippet commented out that works for pulling information from the input area and storing locally, but needs to be solved for getItem localStorage. 
+
