@@ -37,6 +37,10 @@ The following animation demonstrates the application functionality:
 
 ![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
+## Deployed Application
+
+[Work Day Scheduler Application](https://alek2535.github.io/Work-Day-Scheduler/)
+
 ## Installation
 
 To access this project:
